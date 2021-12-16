@@ -12,7 +12,7 @@ const config = {
   //baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://ibb.co/BLf6skj',
+  favicon: '/img/logo.png',
   //organizationName: 'None', // Usually your GitHub org/user name.
   //projectName: 'website', // Usually your repo name.
   
@@ -50,7 +50,7 @@ const config = {
       navbar: {
         title: 'Shanshan Xu',
         logo: {
-          alt: 'My Site Logo',
+          alt: '无效Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -69,7 +69,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'light',
+        style: 'dark',
         links: [
           // {
           //   title: 'Docs',

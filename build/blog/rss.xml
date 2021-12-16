@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Xu's Site Blog</title>
-        <link>https://shan33.github.io/blog</link>
+        <link>https://shan33.github.io/docSite/blog</link>
         <description>Xu's Site Blog</description>
         <lastBuildDate>Mon, 29 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[随想]]></title>
-            <link>https://shan33.github.io/blog/welcome</link>
+            <link>https://shan33.github.io/docSite/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[无聊记事： 今天杭州又下雨了~]]></description>
