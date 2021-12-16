@@ -16,7 +16,7 @@ const config = {
   //organizationName: 'None', // Usually your GitHub org/user name.
   //projectName: 'website', // Usually your repo name.
   
-  url: 'https://shan33.github.io/',
+  url: 'https://shan33.github.io/docSite',
   baseUrl: '/',
   organizationName: 'shan33', // Usually your GitHub org/user name.
   projectName: 'docSite', // Usually your repo name.
