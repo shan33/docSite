@@ -8,12 +8,14 @@
     <subtitle>Xu's Site Blog</subtitle>
     <icon>https://shan33.github.io/docSite/img/logo.png</icon>
     <entry>
-        <title type="html"><![CDATA[随想]]></title>
+        <title type="html"><![CDATA[finally...]]></title>
         <id>life</id>
         <link href="https://shan33.github.io/docSite/blog/life"/>
         <updated>2021-12-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[终于搞定了page~]]></summary>
-        <content type="html"><![CDATA[<p>终于搞定了page~~~</p>]]></content>
+        <summary type="html"><![CDATA[终于搞定了github page; 配置完成了github actions~]]></summary>
+        <content type="html"><![CDATA[<p>终于搞定了github page; 配置完成了github actions<del>~
+拥有了自己的一片新天地~
+aha ~</del></p>]]></content>
         <author>
             <name>xulanshan</name>
             <uri>https://github.com/shan33</uri>

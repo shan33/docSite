@@ -8,12 +8,14 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[随想]]></title>
+            <title><![CDATA[finally...]]></title>
             <link>https://shan33.github.io/docSite/blog/life</link>
             <guid>life</guid>
             <pubDate>Thu, 16 Dec 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[终于搞定了page~]]></description>
-            <content:encoded><![CDATA[<p>终于搞定了page~~~</p>]]></content:encoded>
+            <description><![CDATA[终于搞定了github page; 配置完成了github actions~]]></description>
+            <content:encoded><![CDATA[<p>终于搞定了github page; 配置完成了github actions<del>~
+拥有了自己的一片新天地~
+aha ~</del></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[随想]]></title>
