@@ -9,7 +9,7 @@ const config = {
   title: "Xu's Site",
   tagline: 'Welcome To My Site',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/docSite',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
