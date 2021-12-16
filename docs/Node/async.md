@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 笔记
+# CommonJS / AMD / CMD
 
 事件驱动的非阻塞I/O
 
@@ -142,20 +142,6 @@ script: {
 }
 ```
 
-### 发布包
-```
-npm init
-npm adduser
-npm publish <folder>
-// 验证
-npm i
-// 权限管理
-npm owner
-// 分析
-npm ls
-
-```
-
 ### AMD
 >CommonJS一个延伸。 define(id?, dependencies?, factory);  factory内容（实际代码内容）,声明模块时候指定所有依赖，形参传递
 ``` JavaScript
@@ -198,17 +184,3 @@ define(function(require, exports, module) {
     return hello;
 })
 ```
-
-----
-
-### 异步编程
-
-#### 异步方法编写
-**异常处理**
-1. 必须执行调用者传入的回调函数
-2. 正确传递回异常供调用者判断
-
-#### 解决方案
-· 事件监听；发布/订阅模式
-· Promise/Deferred模式
-· 流程控制库
