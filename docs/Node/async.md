@@ -38,7 +38,7 @@ sidebar_position: 1
 ### JS 模块编译
 Node对获取的Javascript文件内容进行头尾包装
 HEAD:
-```
+``` JavaScript
 (function (exports, require, module, __filename, __dirname) {
     var Math = require('math');
     exports.area = function (radius) {
@@ -69,7 +69,7 @@ V8附带的js2c.py工具；将内置的JS代码src/node.js,lib/*.js转换为C++�
 
 **源文件通过process.binding('natives')取出，编译成功的模块缓存到NativeModule._cache对象上，文件模块则缓存到Module._cache对象上**
 
-```
+``` JavaScript
     function NativeModule(id) {
         this.filename = id + 'js';
         this.id = id;
@@ -158,7 +158,7 @@ npm ls
 
 ### AMD
 >CommonJS一个延伸。 define(id?, dependencies?, factory);  factory内容（实际代码内容）,声明模块时候指定所有依赖，形参传递
-```
+``` JavaScript
 // define显示定义模块（作用域隔离) Node隐式声明  return导出
 define([xx, xx], function(){
     const exports = {};
@@ -171,7 +171,7 @@ define([xx, xx], function(){
 
 ### CMD
 >define(factory)
-```
+``` JavaScript
 // 支持动态获取模块
 define(function(require, exports, module) {
     
@@ -179,7 +179,7 @@ define(function(require, exports, module) {
 ```
 
 ### 兼容多种模块规范
-```
+``` JavaScript
 (function (name, definition) {
     // 检测上下文环境是否为AMD/CMD
     let hasDefine = typeof define === 'function',
