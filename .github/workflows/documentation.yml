@@ -39,8 +39,9 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: deploy website
-        run: |
-          npm run deploy
-        
+        uses: JamesIves/github-pages-deploy-action@master
         with: 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: pages
+          FOLDER: build
+          BUILD_SCRIPT: npm run build
