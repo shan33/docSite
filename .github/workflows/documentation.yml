@@ -32,4 +32,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: deploy website
         run: |
-          GIT_USER=shan33 GIT_PASS=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 npm run deploy
+          npm run deploy
