@@ -8,13 +8,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Xu's Site",
   tagline: 'Welcome To My Site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  //url: 'https://your-docusaurus-test-site.com',
+  //baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'None', // Usually your GitHub org/user name.
-  projectName: 'website', // Usually your repo name.
+  favicon: 'https://ibb.co/BLf6skj',
+  //organizationName: 'None', // Usually your GitHub org/user name.
+  //projectName: 'website', // Usually your repo name.
+  
+  url: 'https://shan33.github.io',
+  baseUrl: '/docSite/',
+  organizationName: 'shan33', // Usually your GitHub org/user name.
+  projectName: 'docSite', // Usually your repo name.
 
   presets: [
     [
