@@ -58,9 +58,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '博客',
+            label: '文章',
           },
-          {to: '/blog', label: '日志', position: 'left'},
+          {to: '/blog', label: '说说', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

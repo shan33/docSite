@@ -84,6 +84,7 @@ V8附带的js2c.py工具；将内置的JS代码src/node.js,lib/*.js转换为C++�
 
 ### AMD
 >CommonJS一个延伸。 define(id?, dependencies?, factory);  factory内容（实际代码内容）,声明模块时候指定所有依赖，形参传递
+
 ``` JavaScript
 // define显示定义模块（作用域隔离) Node隐式声明  return导出
 define([xx, xx], function(){
@@ -92,17 +93,16 @@ define([xx, xx], function(){
     
     return exports;
 })
-
 ```
 
 ----
 
 ### CMD
 >define(factory)
+
 ``` JavaScript
 // 支持动态获取模块
 define(function(require, exports, module) {
-    
 })
 ```
 
