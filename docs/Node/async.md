@@ -80,67 +80,7 @@ V8附带的js2c.py工具；将内置的JS代码src/node.js,lib/*.js转换为C++�
     NativeModule._cache = {};
 ```
 
-#### 1.3 C/C++ 核心模块的编译过程
-
->脚本语言的开发速度优于静态语言，但是性能弱于静态语言。
-内建模块：纯由C/C++编写的部分，通常不被用户直接调用； （buffer、crypto、evals、fs、os等）
-
-每一个内建模块在定义之后，通过***NODE_MODULE***宏将模块定义到node命令空间中，模块的具体初始化方法挂载为结构的register_func成员
-
-node_extensions.h文件将这些散列的内建模块统一放进了一个叫node_module_list(get_buildin_module从数组中取出内建模块)的数组中，
-```
-node_buffer
-node_crypto
-node_evals
-node_fs
-node_http_parser
-node_os
-node_zlib
-node_timer_wrap
-node_tcp_wrap
-node_udp_wrap
-node_pipe_wrap
-node_cares_wrap
-node_tty_wrap
-node_process_wrap
-node_fs_event_wrap
-node_signal_watcher
-
-内建模块优势：由C/C++编写，性能上优于脚本语言；进行文件编译时，被编译成为二进制文件；
-一旦Node开始执行，被直接加载进内存中，无须再次做标识符定位、文件定位、编译等过程，直接可执行；
-```
-
-> 模块层级依赖关系（核心模块基本都封装了内建模块）
-
-```flow
-
-file=>operation: 文件模块
-core=>operation: 核心模块
-inner=>operation: 内建模块
-
-file->core->inner
-
-```
-
-> **内建模块导出内部变量或方法：** node在启动时，会生成一个局部变量process,并提供binding()的实现代码在src/node.cc中
-```flow
-one=>operation: require('os')
-two=>operation: NativeModule.require('os')
-three=>operation: process.binding('os')
-four=>operation: get_builtin_module('node_os')
-five=>operation: NODE_MODULE(node_os, reg_func)
-
-one->two->three->four->five
-```
-
-### NPM 钩子命令
-```
-script: {
-    preinstall: '',
-    install: '',
-    uninstall: '',
-}
-```
+----
 
 ### AMD
 >CommonJS一个延伸。 define(id?, dependencies?, factory);  factory内容（实际代码内容）,声明模块时候指定所有依赖，形参传递
@@ -155,6 +95,8 @@ define([xx, xx], function(){
 
 ```
 
+----
+
 ### CMD
 >define(factory)
 ``` JavaScript
@@ -163,6 +105,8 @@ define(function(require, exports, module) {
     
 })
 ```
+
+----
 
 ### 兼容多种模块规范
 ``` JavaScript
