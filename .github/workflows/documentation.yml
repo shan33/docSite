@@ -34,12 +34,12 @@ jobs:
             ${{ runner.os }}-node-
         
       # Runs a set of commands using the runners shell
-      - name: install
-        run: npm i
+      - name: npm install
+        run: npm install
 
       # Runs a set of commands using the runners shell
       - name: deploy website
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with: 
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: pages
