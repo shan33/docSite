@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[829],{2346:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/dailylife","name":"dailylife","count":1,"permalink":"/blog/tags/dailylife"}')}}]);
