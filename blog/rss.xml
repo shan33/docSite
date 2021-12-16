@@ -4,9 +4,17 @@
         <title>Xu's Site Blog</title>
         <link>https://shan33.github.io/docSite/blog</link>
         <description>Xu's Site Blog</description>
-        <lastBuildDate>Mon, 29 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[随想]]></title>
+            <link>https://shan33.github.io/docSite/blog/life</link>
+            <guid>life</guid>
+            <pubDate>Thu, 16 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[终于搞定了page~]]></description>
+            <content:encoded><![CDATA[<p>终于搞定了page~~~</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[随想]]></title>
             <link>https://shan33.github.io/docSite/blog/welcome</link>
