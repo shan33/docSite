@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/blog</id>
+    <id>https://shan33.github.io/blog</id>
     <title>Xu's Site Blog</title>
     <updated>2021-11-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <link rel="alternate" href="https://shan33.github.io/blog"/>
     <subtitle>Xu's Site Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <icon>https://shan33.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[随想]]></title>
         <id>welcome</id>
-        <link href="https://your-docusaurus-test-site.com/blog/welcome"/>
+        <link href="https://shan33.github.io/blog/welcome"/>
         <updated>2021-11-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[无聊记事： 今天杭州又下雨了~]]></summary>
         <content type="html"><![CDATA[<p>无聊记事： 今天杭州又下雨了~</p>]]></content>
