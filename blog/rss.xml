@@ -4,28 +4,28 @@
         <title>Xu's Site Blog</title>
         <link>https://shan33.github.io/docSite/blog</link>
         <description>Xu's Site Blog</description>
-        <lastBuildDate>Sat, 18 Dec 2021 08:12:52 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Dec 2021 08:16:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[A1]]></title>
             <link>https://shan33.github.io/docSite/blog/language</link>
             <guid>language</guid>
-            <pubDate>Sat, 18 Dec 2021 08:12:52 GMT</pubDate>
+            <pubDate>Sat, 18 Dec 2021 08:16:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[《你不知道的javascript》 笔记1]]></title>
             <link>https://shan33.github.io/docSite/blog/note</link>
             <guid>note</guid>
-            <pubDate>Sat, 18 Dec 2021 08:12:52 GMT</pubDate>
+            <pubDate>Sat, 18 Dec 2021 08:16:58 GMT</pubDate>
             <description><![CDATA[note 图片]]></description>
             <content:encoded><![CDATA[<p><img src="./img/JS_HS.jpg" alt="note 图片"/></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[《你不知道的javascript》 笔记2]]></title>
-            <link>https://shan33.github.io/docSite/blog/note</link>
-            <guid>note</guid>
-            <pubDate>Sat, 18 Dec 2021 08:12:52 GMT</pubDate>
+            <link>https://shan33.github.io/docSite/blog/note2</link>
+            <guid>note2</guid>
+            <pubDate>Sat, 18 Dec 2021 08:16:58 GMT</pubDate>
             <description><![CDATA[note 图片]]></description>
             <content:encoded><![CDATA[<p><img src="./img/JS%E5%8A%A8%E6%80%81%E4%BF%AE%E6%94%B9%E4%BD%9C%E7%94%A8%E5%9F%9F.jpg" alt="note 图片"/></p>]]></content:encoded>
         </item>
