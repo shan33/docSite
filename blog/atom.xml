@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shan33.github.io/docSite/blog</id>
     <title>Xu's Site Blog</title>
-    <updated>2021-12-18T08:11:25.585Z</updated>
+    <updated>2021-12-18T08:12:52.575Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shan33.github.io/docSite/blog"/>
     <subtitle>Xu's Site Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[A1]]></title>
         <id>language</id>
         <link href="https://shan33.github.io/docSite/blog/language"/>
-        <updated>2021-12-18T08:11:25.585Z</updated>
+        <updated>2021-12-18T08:12:52.575Z</updated>
         <author>
             <name>xulanshan</name>
             <uri>https://github.com/shan33</uri>
@@ -21,9 +21,21 @@
         <title type="html"><![CDATA[《你不知道的javascript》 笔记1]]></title>
         <id>note</id>
         <link href="https://shan33.github.io/docSite/blog/note"/>
-        <updated>2021-12-18T08:11:25.521Z</updated>
+        <updated>2021-12-18T08:12:52.499Z</updated>
         <summary type="html"><![CDATA[note 图片]]></summary>
         <content type="html"><![CDATA[<p><img src="./img/JS_HS.jpg" alt="note 图片"/></p>]]></content>
+        <author>
+            <name>xulanshan</name>
+            <uri>https://github.com/shan33</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《你不知道的javascript》 笔记2]]></title>
+        <id>note</id>
+        <link href="https://shan33.github.io/docSite/blog/note"/>
+        <updated>2021-12-18T08:12:52.499Z</updated>
+        <summary type="html"><![CDATA[note 图片]]></summary>
+        <content type="html"><![CDATA[<p><img src="./img/JS%E5%8A%A8%E6%80%81%E4%BF%AE%E6%94%B9%E4%BD%9C%E7%94%A8%E5%9F%9F.jpg" alt="note 图片"/></p>]]></content>
         <author>
             <name>xulanshan</name>
             <uri>https://github.com/shan33</uri>
