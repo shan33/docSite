@@ -4,20 +4,51 @@
         <title>Xu's Site Blog</title>
         <link>https://shan33.github.io/docSite/blog</link>
         <description>Xu's Site Blog</description>
-        <lastBuildDate>Sat, 18 Dec 2021 08:39:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Dec 2021 13:32:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[this相关]]></title>
+            <link>https://shan33.github.io/docSite/blog/笔记4</link>
+            <guid>笔记4</guid>
+            <pubDate>Sun, 19 Dec 2021 13:32:41 GMT</pubDate>
+            <description><![CDATA[this]]></description>
+            <content:encoded><![CDATA[<blockquote><p>this</p></blockquote><h3>this绑定规则</h3><ol><li>默认绑定(函数直接使用不带任何修饰的函数引用进行调用)</li><li>隐式绑定(调用位置是否有上下文对象)</li></ol><blockquote><p>隐式丢失</p><pre><code class="language-javascript">function foo() {
+  console.log(this.a);
+}
+</code></pre></blockquote><p>var obj = {
+a: 2,
+foo: foo
+};</p><p>var bar = obj.foo;
+var a = &#x27;global&#x27;;
+bar(); // global</p><pre><code>
+3. 显式绑定(apply,bind,call...)
+4. new绑定
+&gt; 1. 创建一个新的对象
+&gt; 2. 对新的对象执行【原型】绑定
+&gt; 3. 新对象会绑定到函数调用的this
+&gt; 4. 如果函数没有返回其他对象，那么new表达式函数调用会返回这个新的对象
+
+### 判断this
+1. 函数是否在new中调用（new绑定）？是的话this绑定的是新创建的对象；
+``` javascript
+var bar = new foo();
+</code></pre><ol start="2"><li>函数是否通过call、apply显式绑定或者硬绑定调用？是的话，this绑定的是指定的对象。</li></ol><pre><code class="language-javascript">var bar = foo.call(obj1);
+</code></pre><ol start="3"><li>函数是否在某个上下文对象中调用（隐式绑定）？是的话，this绑定的是上下文对象。</li></ol><pre><code class="language-javascript">var bar = obj1.foo();
+</code></pre><ol start="4"><li>都不是，使用默认绑定；严格模式下，绑定undefined，否则绑定到全局对象。</li></ol><pre><code class="language-javascript">var bar = foo();
+</code></pre>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[A1]]></title>
             <link>https://shan33.github.io/docSite/blog/language</link>
             <guid>language</guid>
-            <pubDate>Sat, 18 Dec 2021 08:39:06 GMT</pubDate>
+            <pubDate>Sun, 19 Dec 2021 13:32:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[《你不知道的javascript》 笔记1]]></title>
             <link>https://shan33.github.io/docSite/blog/note</link>
             <guid>note</guid>
-            <pubDate>Sat, 18 Dec 2021 08:39:06 GMT</pubDate>
+            <pubDate>Sun, 19 Dec 2021 13:32:41 GMT</pubDate>
             <description><![CDATA[note 图片]]></description>
             <content:encoded><![CDATA[<p><img src="./img/JS_HS.jpg" alt="note 图片"/></p>]]></content:encoded>
         </item>
@@ -25,7 +56,7 @@
             <title><![CDATA[《你不知道的javascript》 笔记2]]></title>
             <link>https://shan33.github.io/docSite/blog/note2</link>
             <guid>note2</guid>
-            <pubDate>Sat, 18 Dec 2021 08:39:06 GMT</pubDate>
+            <pubDate>Sun, 19 Dec 2021 13:32:41 GMT</pubDate>
             <description><![CDATA[note 图片]]></description>
             <content:encoded><![CDATA[<p><img src="./img/JS%E5%8A%A8%E6%80%81%E4%BF%AE%E6%94%B9%E4%BD%9C%E7%94%A8%E5%9F%9F.jpg" alt="note 图片"/></p>]]></content:encoded>
         </item>
@@ -33,7 +64,7 @@
             <title><![CDATA[JS严格模式]]></title>
             <link>https://shan33.github.io/docSite/blog/笔记3</link>
             <guid>笔记3</guid>
-            <pubDate>Sat, 18 Dec 2021 08:39:06 GMT</pubDate>
+            <pubDate>Sun, 19 Dec 2021 13:32:41 GMT</pubDate>
             <description><![CDATA[use strict]]></description>
             <content:encoded><![CDATA[<blockquote><p>use strict</p></blockquote><ol><li>LHS找不到变量，不会主动新增；ReferenceError</li><li>this不会默认绑定在window/self等；this=undefined</li></ol>]]></content:encoded>
         </item>
