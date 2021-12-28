@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9580],{8660:function(e){e.exports=JSON.parse('{"allTagsPath":"/docSite/blog/tags","slug":"/docSite/blog/tags/computed","name":"computed","count":1,"permalink":"/docSite/blog/tags/computed"}')}}]);

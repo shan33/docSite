@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[696],{6690:function(e){e.exports=JSON.parse('{"allTagsPath":"/docSite/blog/tags","slug":"/docSite/blog/tags/english","name":"english","count":1,"permalink":"/docSite/blog/tags/english"}')}}]);
